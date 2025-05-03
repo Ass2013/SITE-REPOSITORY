@@ -1,0 +1,50 @@
+body { 
+    color:#0c067e;
+    background-color: rgb(245, 237, 133);
+    font-family: cursive;    
+    
+} 
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+    25% {
+        color: rgb(132, 0, 255);
+      }
+  
+    50% {
+      color: rgb(234, 0, 255);
+    }
+    75% {
+        color: rgb(255, 0, 93);
+      }
+    80% {
+        color: rgb(230, 0, 255);
+      }
+    100% {
+      color: rgb(157, 0, 255);
+    }
+}
+
+h1 { 
+    color:crimson
+ }
+
+h1:hover { animation: color-change 3s infinite; }
+h2  { 
+    color:rgba(208, 122, 10, 0.997);
+
+}
+
+p  { 
+    font-size:large ;
+
+}
+li  { 
+    font-size:large ;
+
+}
+h3  { 
+    color: forestgreen;
+
+}
